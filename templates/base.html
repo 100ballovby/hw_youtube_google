@@ -11,17 +11,17 @@
 
 <div class="container">
     <div class="row justify-content-around">
-        <div class="card" style="width: 18rem;"> <!-- YouTube -->
-            <img src="https://cdn-icons-png.flaticon.com/512/1383/1383260.png" class="card-img-top" alt="...">
+        <div class="card mb-4" style="width: 25%;"> <!-- YouTube -->
+            <img src="https://cdn-icons-png.flaticon.com/512/1383/1383260.png" class="card-img-top">
             <div class="card-body">
-                <a href="" class="btn btn-primary">Search YouTube</a>
+                <a href="{{ url_for("yt") }}" class="btn btn-primary">Search YouTube</a>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;"> <!-- Google -->
-            <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" class="card-img-top" alt="...">
+        <div class="card mb-4" style="width: 25%;"> <!-- Google -->
+            <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" class="card-img-top">
             <div class="card-body">
-                <a href="" class="btn btn-primary">Search Google</a>
+                <a href="{{ url_for("goo") }}" class="btn btn-primary">Search Google</a>
             </div>
         </div>
     </div>
